@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "业务监控软件", "WindowsFormsApplication2\业务监控软件.csproj", "{27FA8516-FF17-4C02-B578-7D29E7A45ABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27FA8516-FF17-4C02-B578-7D29E7A45ABA}.Debug|x86.ActiveCfg = Debug|x86
+		{27FA8516-FF17-4C02-B578-7D29E7A45ABA}.Debug|x86.Build.0 = Debug|x86
+		{27FA8516-FF17-4C02-B578-7D29E7A45ABA}.Release|x86.ActiveCfg = Release|x86
+		{27FA8516-FF17-4C02-B578-7D29E7A45ABA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96404076-9879-465F-BE78-B2D044D9A506}
+	EndGlobalSection
+EndGlobal
