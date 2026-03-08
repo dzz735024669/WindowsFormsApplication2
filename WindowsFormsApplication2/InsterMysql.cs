@@ -13,7 +13,7 @@ namespace WindowsFormsApplication2
         public Boolean insterInfoToMysqlTencentVmsLog(CallBackResult zb, string Params, string mobile)
         {
             Boolean fg;
-            String connetStr = "server=10.129.27.1;port=3306;user=Monitor;password=Txk@268; database=Monitor;";
+            String connetStr = "server=10.129.27.1;port=3306;user=;password=; database=;";
 
             MySqlConnection conn = new MySqlConnection(connetStr);
             try
