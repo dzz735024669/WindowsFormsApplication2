@@ -14,7 +14,7 @@ namespace WindowsFormsApplication2
             string xmlReturn=null;
             try
             {
-                var client = new RestClient("http://10.129.52.103/oasms/service.asmx");
+                var client = new RestClient("http:///oasms/service.asmx");
                 client.Timeout = -1;
                 var request = new RestRequest(Method.POST);
                 request.AddHeader("Content-Type", "text/xml;charset=utf-8");
