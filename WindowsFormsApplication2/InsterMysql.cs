@@ -39,7 +39,11 @@ namespace WindowsFormsApplication2
         }
         public Boolean insterIntoEVENT_LOG(string filetime,string datetime,string fileType,string eventMsg,string absentStation) {
             Boolean fg;
+<<<<<<< HEAD
             String connetStr = "server=10.129.27.1;port=3306;user=*;password=*; database=Monitor;";
+=======
+            String connetStr = "server=10.129.27.1;port=3306;user=Monitor;password=Txk@268; database=Monitor;";
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f
 
             MySqlConnection conn = new MySqlConnection(connetStr);
             try
@@ -69,7 +73,11 @@ namespace WindowsFormsApplication2
         {
             DateTime dt = DateTime.Now;
             Boolean fg;
+<<<<<<< HEAD
             String connetStr = "server=10.129.27.1;port=3306;user=*;password=*; database=Monitor;";
+=======
+            String connetStr = "server=10.129.27.1;port=3306;user=Monitor;password=Txk@268; database=Monitor;";
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f
 
             MySqlConnection conn = new MySqlConnection(connetStr);
             try
@@ -95,4 +103,7 @@ namespace WindowsFormsApplication2
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f

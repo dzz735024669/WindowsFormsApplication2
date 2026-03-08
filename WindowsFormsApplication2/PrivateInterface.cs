@@ -158,7 +158,11 @@ namespace WindowsFormsApplication2
             request.AddHeader("Accept", "*/*");
             request.AddHeader("User-Agent", "PostmanRuntime/7.19.0");
             request.AddHeader("Content-Type", "application/json");
+<<<<<<< HEAD
             request.AddParameter("application/json", "{\"passwd\":\"*\",\"email\":\"*\"}", ParameterType.RequestBody);
+=======
+            request.AddParameter("application/json", "{\"passwd\":\"Admin@123\",\"email\":\"xxzx\"}", ParameterType.RequestBody);
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f
             IRestResponse response = client.Execute(request);
             //var contentPost = response.Content;
             var json = response.Content;
@@ -279,4 +283,7 @@ namespace WindowsFormsApplication2
 
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f

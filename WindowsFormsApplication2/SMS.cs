@@ -19,7 +19,11 @@ namespace WindowsFormsApplication2
                 var request = new RestRequest(Method.POST);
                 request.AddHeader("Content-Type", "text/xml;charset=utf-8");
                 request.AddHeader("SOAPAction", "\"http://tempuri.org/SubmitSMS\"");
+<<<<<<< HEAD
                 request.AddParameter("text/xml;charset=utf-8", "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <SubmitSMS xmlns=\"http://tempuri.org/\">\r\n      <ftelno>" + phoneNumber + "</ftelno>\r\n      <fmsg>" + msg + "</fmsg>\r\n      <fpwd>*</fpwd>\r\n      <forgaddr></forgaddr>\r\n    </SubmitSMS>\r\n  </soap:Body>\r\n</soap:Envelope>", ParameterType.RequestBody);
+=======
+                request.AddParameter("text/xml;charset=utf-8", "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <SubmitSMS xmlns=\"http://tempuri.org/\">\r\n      <ftelno>" + phoneNumber + "</ftelno>\r\n      <fmsg>" + msg + "</fmsg>\r\n      <fpwd>xxzx@2019</fpwd>\r\n      <forgaddr></forgaddr>\r\n    </SubmitSMS>\r\n  </soap:Body>\r\n</soap:Envelope>", ParameterType.RequestBody);
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f
                 IRestResponse response = client.Execute(request);
                 xmlReturn = response.Content;
             }
@@ -41,4 +45,7 @@ namespace WindowsFormsApplication2
 
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f

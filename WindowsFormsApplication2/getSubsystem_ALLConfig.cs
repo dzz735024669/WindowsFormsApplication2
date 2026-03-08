@@ -42,8 +42,13 @@ namespace WindowsFormsApplication2
             mysqlCSB.Database = "Monitor";   // 设置连接的数据库名
             mysqlCSB.Server = "10.129.27.1";  // 设置连接数据库的IP地址
             mysqlCSB.Port = 3306;           // MySql端口号
+<<<<<<< HEAD
             mysqlCSB.UserID = "*";       // 设置登录数据库的账号
             mysqlCSB.Password = "*";     // 设置登录数据库的密码
+=======
+            mysqlCSB.UserID = "Monitor";       // 设置登录数据库的账号
+            mysqlCSB.Password = "Txk@268";     // 设置登录数据库的密码
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f
             //string mysqlCSB = "Database=school;Data Source=127.0.0.1;port=3306;User Id=root;Password=yang;";
             // 创建连接
             MySqlConnection mySqlConnection = new MySqlConnection(mysqlCSB.ToString());
@@ -113,4 +118,7 @@ namespace WindowsFormsApplication2
 
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f

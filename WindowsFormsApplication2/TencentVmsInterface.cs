@@ -86,7 +86,11 @@ namespace WindowsFormsApplication2
 
         }
         public void insterInfoToMysql(CallBackResult zb, string Params, string mobile) {
+<<<<<<< HEAD
             String connetStr = "server=10.129.27.1;port=3306;user=*;password=*; database=Monitor;";
+=======
+            String connetStr = "server=10.129.27.1;port=3306;user=Monitor;password=Txk@268; database=Monitor;";
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f
           
             MySqlConnection conn = new MySqlConnection(connetStr);
             try
@@ -109,4 +113,7 @@ namespace WindowsFormsApplication2
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f73748138f825c1c55d370238f6f87af227f6b6f
